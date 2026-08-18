@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script>
-    tailwind = { config: { corePlugins: { preflight: false } } };
+    tailwind = {config: {corePlugins: {preflight: false}}};
   </script>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -66,7 +66,8 @@
           class="box-border [flex:1_1_0] h-[42px] flex flex-row gap-0 justify-center items-center [outline:1px_solid_#2A2D31] [outline-offset:-0.5px] rounded-[4px]">
           <div data-pencil-name="UI UX Portfolio Hero Button Label"
             class="text-[12px]/[normal] box-border text-[#F5F4F0] font-['Geist_Mono',system-ui,sans-serif] font-semibold text-left [white-space:nowrap]">
-            UI/UX Work ↗
+            <a href="https://hugotaniady.notion.site/UI-UX-Design-Mockup-Portfolio-48bc28a4a03842698163d72ad30a8624"
+              target="_blank" rel="noopener noreferrer">UI/UX Work ↗</a>
           </div>
         </div>
       </div>
@@ -97,16 +98,13 @@
           workflows.
         </div>
         <div data-pencil-name="HR Management Clickable 4:3 Preview"
-          class="box-border w-full h-[263px] shrink-0 bg-[url('file:///C:/Users/Hugo%20Taniady/Downloads/images/attached-hr.png')] bg-no-repeat bg-cover bg-center [outline:1px_solid_#2A2D31] [outline-offset:-0.5px] rounded-[5px] overflow-hidden relative">
-          <div data-pencil-name="Open Full Project"
-            class="box-border w-[104px] h-[34px] absolute left-[236px] top-[219px] flex flex-row gap-0 p-[9px_10px] justify-center items-center bg-[#0A0A0AD9] rounded-[4px] [z-index:0]">
-            <div data-pencil-name="Open Full Project Link"
-              class="text-[9px]/[normal] box-border text-[#F5F4F0] font-['Geist_Mono',system-ui,sans-serif] font-semibold tracking-[0.4px] text-left [white-space:nowrap]">
-              <a href="./images/hr-project-full.png" target="_blank">
-                OPEN 1:1 ↗
-              </a>
-            </div>
+          class="box-border w-full h-[263px] shrink-0 bg-[#111] [outline:1px_solid_#2A2D31] [outline-offset:-0.5px] rounded-[5px] overflow-hidden relative group">
+          <div
+            class="absolute inset-0 bg-[url('./images/hr-project-full.png')] bg-no-repeat bg-contain bg-center transition-transform duration-500 ease-out group-hover:scale-105">
           </div>
+          <a href="./images/hr-project-full.png" target="_blank"
+            class="box-border h-[34px] absolute bottom-[10px] right-[10px] flex items-center justify-center px-[10px] bg-[#0A0A0AD9] rounded-[4px] z-10 text-[9px]/[normal] text-[#F5F4F0] font-['Geist_Mono',system-ui,sans-serif] font-semibold tracking-[0.4px] [white-space:nowrap]">OPEN
+            1:1 ↗</a>
         </div>
         <div data-pencil-name="Tech Stack"
           class="box-border w-full h-[20px] shrink-0 flex flex-row gap-[6px] justify-start items-center">
@@ -154,15 +152,14 @@
           class="text-[13px]/[18px] box-border w-full text-[#969AA1] font-[Inter,system-ui,sans-serif] font-normal text-left">
           Feature development &amp; system integration across the end-to-end loan lifecycle.
         </div>
-        <div data-pencil-name="Loan Management Clickable 4:3 Preview"
-          class="box-border w-full h-[263px] shrink-0 bg-[url('file:///C:/Users/Hugo%20Taniady/Downloads/images/attached-loan.png')] bg-no-repeat bg-cover bg-center [outline:1px_solid_#2A2D31] [outline-offset:-0.5px] rounded-[5px] overflow-hidden relative">
-          <div data-pencil-name="Open Full Project"
-            class="box-border w-[104px] h-[34px] absolute left-[236px] top-[219px] flex flex-row gap-0 p-[9px_10px] justify-center items-center bg-[#0A0A0AD9] rounded-[4px] [z-index:0]">
-            <div data-pencil-name="Open Full Project Link"
-              class="text-[9px]/[normal] box-border text-[#F5F4F0] font-['Geist_Mono',system-ui,sans-serif] font-semibold tracking-[0.4px] text-left [white-space:nowrap]">
-              OPEN 1:1 ↗
-            </div>
+        <div data-pencil-name="Loan Management System 4:3 Preview"
+          class="box-border w-full h-[263px] shrink-0 bg-[#111] [outline:1px_solid_#2A2D31] [outline-offset:-0.5px] rounded-[5px] overflow-hidden relative group">
+          <div
+            class="absolute inset-0 bg-[url('./images/loan-management-system-full.png')] bg-no-repeat bg-contain bg-center transition-transform duration-500 ease-out group-hover:scale-105">
           </div>
+          <a href="./images/loan-management-system-full.png" target="_blank"
+            class="box-border h-[34px] absolute bottom-[10px] right-[10px] flex items-center justify-center px-[10px] bg-[#0A0A0AD9] rounded-[4px] z-10 text-[9px]/[normal] text-[#F5F4F0] font-['Geist_Mono',system-ui,sans-serif] font-semibold tracking-[0.4px] [white-space:nowrap]">OPEN
+            1:1 ↗</a>
         </div>
         <div data-pencil-name="Tech Stack"
           class="box-border w-full h-[20px] shrink-0 flex flex-row gap-[6px] justify-start items-center">
@@ -203,15 +200,14 @@
           class="text-[13px]/[18px] box-border w-full text-[#969AA1] font-[Inter,system-ui,sans-serif] font-normal text-left">
           Document intelligence for company data with accurate, source-grounded answers.
         </div>
-        <div data-pencil-name="AI Knowledge Clickable 4:3 Preview"
-          class="box-border w-full h-[263px] shrink-0 bg-[url('file:///C:/Users/Hugo%20Taniady/Downloads/images/attached-ai-knowledge.png')] bg-no-repeat bg-cover bg-center [outline:1px_solid_#2A2D31] [outline-offset:-0.5px] rounded-[5px] overflow-hidden relative">
-          <div data-pencil-name="Open Full Project"
-            class="box-border w-[104px] h-[34px] absolute left-[236px] top-[219px] flex flex-row gap-0 p-[9px_10px] justify-center items-center bg-[#0A0A0AD9] rounded-[4px] [z-index:0]">
-            <div data-pencil-name="Open Full Project Link"
-              class="text-[9px]/[normal] box-border text-[#F5F4F0] font-['Geist_Mono',system-ui,sans-serif] font-semibold tracking-[0.4px] text-left [white-space:nowrap]">
-              OPEN 1:1 ↗
-            </div>
+        <div data-pencil-name="Loan Management System 4:3 Preview"
+          class="box-border w-full h-[263px] shrink-0 bg-[#111] [outline:1px_solid_#2A2D31] [outline-offset:-0.5px] rounded-[5px] overflow-hidden relative group">
+          <div
+            class="absolute inset-0 bg-[url('./images/ai-knowledge-system-full.png')] bg-no-repeat bg-contain bg-center transition-transform duration-500 ease-out group-hover:scale-105">
           </div>
+          <a href="./images/ai-knowledge-system-full.png" target="_blank"
+            class="box-border h-[34px] absolute bottom-[10px] right-[10px] flex items-center justify-center px-[10px] bg-[#0A0A0AD9] rounded-[4px] z-10 text-[9px]/[normal] text-[#F5F4F0] font-['Geist_Mono',system-ui,sans-serif] font-semibold tracking-[0.4px] [white-space:nowrap]">OPEN
+            1:1 ↗</a>
         </div>
         <div data-pencil-name="Tech Stack"
           class="box-border w-full h-[20px] shrink-0 flex flex-row gap-[6px] justify-start items-center">
@@ -260,7 +256,7 @@
             <div data-pencil-name="Golf Website UI Preview Item"
               class="box-border w-[160px] shrink-0 h-[128px] flex flex-col gap-[5px] justify-start items-center">
               <div data-pencil-name="UI UX Golf Website Preview"
-                class="box-border w-[160px] h-[105px] shrink-0 flex flex-row gap-0 justify-start items-start bg-[url('file:///C:/Users/Hugo%20Taniady/Downloads/screenshot-hugotaniady.notion.site-2.png')] bg-no-repeat bg-contain bg-center [outline:1px_solid_#2A2D31] [outline-offset:-0.5px] rounded-[5px] overflow-hidden">
+                class="box-border w-[160px] h-[105px] shrink-0 flex flex-row gap-0 justify-start items-start bg-[url('./images/golf-UI-mobile.png')] bg-no-repeat bg-contain bg-center [outline:1px_solid_#2A2D31] [outline-offset:-0.5px] rounded-[5px] overflow-hidden">
               </div>
               <div data-pencil-name="Golf Website UI Caption"
                 class="text-[8px]/[normal] box-border text-[#969AA1] font-['Geist_Mono',system-ui,sans-serif] font-normal text-left [white-space:nowrap]">
@@ -270,7 +266,7 @@
             <div data-pencil-name="Expense Tracker UI Preview Item"
               class="box-border w-[160px] shrink-0 h-[128px] flex flex-col gap-[5px] justify-start items-center">
               <div data-pencil-name="UI UX Expense Tracker Preview"
-                class="box-border w-[160px] h-[105px] shrink-0 bg-[url('file:///C:/Users/Hugo%20Taniady/Downloads/screenshot-hugotaniady.notion.site-3.png')] bg-no-repeat bg-contain bg-center [outline:1px_solid_#2A2D31] [outline-offset:-0.5px] rounded-[5px]">
+                class="box-border w-[160px] h-[105px] shrink-0 bg-[url('./images/expenses-UI-mobile.png')] bg-no-repeat bg-contain bg-center [outline:1px_solid_#2A2D31] [outline-offset:-0.5px] rounded-[5px]">
               </div>
               <div data-pencil-name="Expense Tracker UI Caption"
                 class="text-[8px]/[normal] box-border text-[#969AA1] font-['Geist_Mono',system-ui,sans-serif] font-normal text-left [white-space:nowrap]">
@@ -283,7 +279,7 @@
             <div data-pencil-name="Studio Agency UI Preview Item"
               class="box-border w-[160px] shrink-0 h-[128px] flex flex-col gap-[5px] justify-start items-center">
               <div data-pencil-name="Studio Agency UI Preview"
-                class="box-border w-[160px] h-[105px] shrink-0 bg-[url('file:///C:/Users/Hugo%20Taniady/Downloads/images/uiux-studio.png')] bg-no-repeat bg-contain bg-center [outline:1px_solid_#2A2D31] [outline-offset:-0.5px] rounded-[4px]">
+                class="box-border w-[160px] h-[105px] shrink-0 bg-[url('./images/agency-UI-mobile.png')] bg-no-repeat bg-contain bg-center [outline:1px_solid_#2A2D31] [outline-offset:-0.5px] rounded-[4px]">
               </div>
               <div data-pencil-name="Studio Agency UI Caption"
                 class="text-[8px]/[normal] box-border text-[#969AA1] font-['Geist_Mono',system-ui,sans-serif] font-normal text-left [white-space:nowrap]">
@@ -293,7 +289,7 @@
             <div data-pencil-name="Mobile Banking UI Preview Item"
               class="box-border w-[160px] shrink-0 h-[128px] flex flex-col gap-[5px] justify-start items-center">
               <div data-pencil-name="Mobile Banking UI Preview"
-                class="box-border w-[160px] h-[105px] shrink-0 bg-[url('file:///C:/Users/Hugo%20Taniady/Downloads/images/uiux-banking.png')] bg-no-repeat bg-contain bg-center [outline:1px_solid_#2A2D31] [outline-offset:-0.5px] rounded-[4px]">
+                class="box-border w-[160px] h-[105px] shrink-0 bg-[url('./images/mobile-banking-UI-mobile.png')] bg-no-repeat bg-contain bg-center [outline:1px_solid_#2A2D31] [outline-offset:-0.5px] rounded-[4px]">
               </div>
               <div data-pencil-name="Mobile Banking UI Caption"
                 class="text-[8px]/[normal] box-border text-[#969AA1] font-['Geist_Mono',system-ui,sans-serif] font-normal text-left [white-space:nowrap]">
@@ -304,7 +300,8 @@
         </div>
         <div data-pencil-name="View UI UX Portfolio Link"
           class="text-[11px]/[normal] box-border text-[#70B7E6] font-['Geist_Mono',system-ui,sans-serif] font-semibold tracking-[0.3px] text-left [white-space:nowrap]">
-          VIEW UI/UX PORTFOLIO ↗
+          <a href="https://hugotaniady.notion.site/UI-UX-Design-Mockup-Portfolio-48bc28a4a03842698163d72ad30a8624"
+            target="_blank" rel="noopener noreferrer">VIEW UI/UX PORTFOLIO ↗</a>
         </div>
       </div>
     </div>
@@ -318,28 +315,32 @@
         class="text-[13px]/[18px] box-border w-full text-[#969AA1] font-[Inter,system-ui,sans-serif] font-normal text-left">
         Have a product to ship or a system to simplify?
       </div>
-      <div data-pencil-name="Contact Email ↗"
-        class="box-border w-full h-[42px] shrink-0 flex flex-row gap-0 p-[0px_14px] justify-between items-center [outline:1px_solid_#2A2D31] [outline-offset:-0.5px] rounded-[4px]">
-        <div data-pencil-name="Contact Email ↗ Label"
+      <a href="mailto:hugotaniady@gmail.com" data-pencil-name="Contact Email"
+        class="box-border w-full h-[42px] shrink-0 flex flex-row gap-0 p-[0px_14px] justify-between items-center [outline:1px_solid_#2A2D31] [outline-offset:-0.5px] rounded-[4px] cursor-pointer transition-all duration-300 hover:bg-[#151515] hover:[outline-color:#70B7E6]">
+        <div data-pencil-name="Contact Email Label"
           class="text-[12px]/[normal] box-border text-[#F5F4F0] font-['Geist_Mono',system-ui,sans-serif] font-normal text-left [white-space:nowrap]">
           Email ↗
         </div>
-        <div data-pencil-name="Contact Email ↗ Arrow"
-          class="text-[14px]/[normal] box-border text-[#70B7E6] font-['Geist_Mono',system-ui,sans-serif] font-normal text-left [white-space:nowrap]">
+
+        <div data-pencil-name="Contact Email Arrow"
+          class="text-[14px]/[normal] box-border text-[#70B7E6] font-['Geist_Mono',system-ui,sans-serif] font-normal text-left [white-space:nowrap] transition-transform duration-300 group-hover:translate-x-1">
           →
         </div>
-      </div>
-      <div data-pencil-name="Contact LinkedIn ↗"
-        class="box-border w-full h-[42px] shrink-0 flex flex-row gap-0 p-[0px_14px] justify-between items-center [outline:1px_solid_#2A2D31] [outline-offset:-0.5px] rounded-[4px]">
-        <div data-pencil-name="Contact LinkedIn ↗ Label"
+      </a>
+
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/hugo-taniady/" target="_blank" rel="noopener noreferrer" data-pencil-name="Contact LinkedIn"
+        class="box-border w-full h-[42px] shrink-0 flex flex-row gap-0 p-[0px_14px] justify-between items-center [outline:1px_solid_#2A2D31] [outline-offset:-0.5px] rounded-[4px] cursor-pointer transition-all duration-300 hover:bg-[#151515] hover:[outline-color:#70B7E6]">
+        <div data-pencil-name="Contact LinkedIn Label"
           class="text-[12px]/[normal] box-border text-[#F5F4F0] font-['Geist_Mono',system-ui,sans-serif] font-normal text-left [white-space:nowrap]">
           LinkedIn ↗
         </div>
-        <div data-pencil-name="Contact LinkedIn ↗ Arrow"
+
+        <div data-pencil-name="Contact LinkedIn Arrow"
           class="text-[14px]/[normal] box-border text-[#70B7E6] font-['Geist_Mono',system-ui,sans-serif] font-normal text-left [white-space:nowrap]">
           →
         </div>
-      </div>
+      </a>
     </div>
     <div data-pencil-name="Mobile Footer"
       class="[box-sizing:content-box] w-[350px] h-[43.5px] shrink-0 flex flex-row gap-0 justify-between items-center [border-width:1px_0px_0px_0px] [border-style:solid] [border-color:#2A2D31] [margin:-0.5px_0px_0px_0px]">
